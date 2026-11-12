@@ -1,0 +1,1499 @@
+{
+  "generated_at": "2026-11-12T08:59:45+0100",
+  "dataset_summary": {
+    "speech_count": 40,
+    "silence_count": 15,
+    "hallucination_probe_count": 20
+  },
+  "models": [
+    {
+      "key": "mlx_whisper_large_v3",
+      "label": "whisper-large-v3-mlx",
+      "family": "mlx-whisper",
+      "repo_id": "mlx-community/whisper-large-v3-mlx",
+      "disk_mb": 2940.7,
+      "load_time_ms": 925.3,
+      "memory_idle": {
+        "ru_maxrss_mb": 3483.3,
+        "footprint_mb": 4595.0,
+        "gpu_ioaccel_mb": 3996.0
+      },
+      "memory_peak": {
+        "ru_maxrss_mb": 3585.5,
+        "footprint_mb": 6563.0,
+        "gpu_ioaccel_mb": 5919.0
+      },
+      "conditions": {
+        "normal_dsp_off": {
+          "n_clips": 40,
+          "dsp_enabled": false,
+          "wer_pct": 4.57,
+          "wer_after_rules_pct": 4.57,
+          "median_latency_ms": 660.5,
+          "p95_latency_ms": 1353.3,
+          "mean_cleanup_us": 123.17,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+              "clean_hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is Mr. Quilter's manner less interesting than his matter.",
+              "clean_hyp": "Nor is Mr. Quilter's manner less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        },
+        "soft_whisper_dsp_off": {
+          "n_clips": 40,
+          "dsp_enabled": false,
+          "wer_pct": 6.64,
+          "wer_after_rules_pct": 6.64,
+          "median_latency_ms": 580.3,
+          "p95_latency_ms": 1356.4,
+          "mean_cleanup_us": 114.52,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+              "clean_hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is Mr. Coulter's manner less interesting than his matter.",
+              "clean_hyp": "Nor is Mr. Coulter's manner less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        },
+        "soft_whisper_dsp_on": {
+          "n_clips": 40,
+          "dsp_enabled": true,
+          "wer_pct": 5.75,
+          "wer_after_rules_pct": 5.75,
+          "median_latency_ms": 625.3,
+          "p95_latency_ms": 1347.5,
+          "mean_cleanup_us": 74.83,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+              "clean_hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is Mr. Coulter's manner less interesting than his matter.",
+              "clean_hyp": "Nor is Mr. Coulter's manner less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        },
+        "pseudo_whisper_dsp_off": {
+          "n_clips": 40,
+          "dsp_enabled": false,
+          "wer_pct": 11.65,
+          "wer_after_rules_pct": 11.65,
+          "median_latency_ms": 591.0,
+          "p95_latency_ms": 1298.1,
+          "mean_cleanup_us": 71.31,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+              "clean_hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is Mr. Coulter's manner less interesting than his manner.",
+              "clean_hyp": "Nor is Mr. Coulter's manner less interesting than his manner."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, simile is drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, simile is drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        },
+        "pseudo_whisper_dsp_on": {
+          "n_clips": 40,
+          "dsp_enabled": true,
+          "wer_pct": 12.39,
+          "wer_after_rules_pct": 12.39,
+          "median_latency_ms": 586.6,
+          "p95_latency_ms": 1206.1,
+          "mean_cleanup_us": 77.15,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+              "clean_hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is Mr. Corker's manner less interesting than his matter.",
+              "clean_hyp": "Nor is Mr. Corker's manner less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, simile is drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, simile is drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        }
+      },
+      "silence": {
+        "dsp_off": {
+          "n_clips": 15,
+          "dsp_enabled": false,
+          "hallucination_count": 15,
+          "hallucination_rate_pct": 100.0,
+          "median_latency_ms": 364.1,
+          "examples": [
+            {
+              "id": "silence_000",
+              "text": "Thank you."
+            },
+            {
+              "id": "silence_001",
+              "text": "Thank you."
+            },
+            {
+              "id": "silence_002",
+              "text": "Thank you."
+            }
+          ]
+        },
+        "dsp_on": {
+          "n_clips": 15,
+          "dsp_enabled": true,
+          "hallucination_count": 15,
+          "hallucination_rate_pct": 100.0,
+          "median_latency_ms": 426.4,
+          "examples": [
+            {
+              "id": "silence_000",
+              "text": "Thank you."
+            },
+            {
+              "id": "silence_001",
+              "text": "Thanks for watching!"
+            },
+            {
+              "id": "silence_002",
+              "text": "Thank you."
+            }
+          ]
+        }
+      },
+      "hallucination_probes": {
+        "n_clips": 20,
+        "wer_pct": 100.0,
+        "extra_word_clips_ge3": 0,
+        "extra_word_rate_pct": 0.0,
+        "mean_extra_words": 0,
+        "median_latency_ms": 507.2
+      }
+    },
+    {
+      "key": "mlx_whisper_turbo",
+      "label": "whisper-large-v3-turbo",
+      "family": "mlx-whisper",
+      "repo_id": "mlx-community/whisper-large-v3-turbo",
+      "disk_mb": 1539.2,
+      "load_time_ms": 344.5,
+      "memory_idle": {
+        "ru_maxrss_mb": 1770.9,
+        "footprint_mb": 2767.0,
+        "gpu_ioaccel_mb": 2477.0
+      },
+      "memory_peak": {
+        "ru_maxrss_mb": 1841.6,
+        "footprint_mb": 3810.0,
+        "gpu_ioaccel_mb": 3491.0
+      },
+      "conditions": {
+        "normal_dsp_off": {
+          "n_clips": 40,
+          "dsp_enabled": false,
+          "wer_pct": 5.01,
+          "wer_after_rules_pct": 5.01,
+          "median_latency_ms": 358.4,
+          "p95_latency_ms": 498.2,
+          "mean_cleanup_us": 98.07,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+              "clean_hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is Mr. Quilter's manner less interesting than his matter.",
+              "clean_hyp": "Nor is Mr. Quilter's manner less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        },
+        "soft_whisper_dsp_off": {
+          "n_clips": 40,
+          "dsp_enabled": false,
+          "wer_pct": 5.6,
+          "wer_after_rules_pct": 5.6,
+          "median_latency_ms": 373.1,
+          "p95_latency_ms": 535.5,
+          "mean_cleanup_us": 98.83,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr. Quilter is the apostle of the middle classes and we are glad to welcome his gospel.",
+              "clean_hyp": "Mr. Quilter is the apostle of the middle classes and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is Mr. Coulter's manner less interesting than his matter.",
+              "clean_hyp": "Nor is Mr. Coulter's manner less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        },
+        "soft_whisper_dsp_on": {
+          "n_clips": 40,
+          "dsp_enabled": true,
+          "wer_pct": 6.05,
+          "wer_after_rules_pct": 6.05,
+          "median_latency_ms": 387.0,
+          "p95_latency_ms": 475.1,
+          "mean_cleanup_us": 127.47,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+              "clean_hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is Mr. Coulter's manner less interesting than his matter.",
+              "clean_hyp": "Nor is Mr. Coulter's manner less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        },
+        "pseudo_whisper_dsp_off": {
+          "n_clips": 40,
+          "dsp_enabled": false,
+          "wer_pct": 12.68,
+          "wer_after_rules_pct": 12.68,
+          "median_latency_ms": 365.3,
+          "p95_latency_ms": 501.0,
+          "mean_cleanup_us": 221.74,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+              "clean_hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is Mr. Coulter's manner less interesting than his matter.",
+              "clean_hyp": "Nor is Mr. Coulter's manner less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, simile is drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, simile is drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        },
+        "pseudo_whisper_dsp_on": {
+          "n_clips": 40,
+          "dsp_enabled": true,
+          "wer_pct": 12.54,
+          "wer_after_rules_pct": 12.54,
+          "median_latency_ms": 369.7,
+          "p95_latency_ms": 465.1,
+          "mean_cleanup_us": 90.39,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+              "clean_hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is Mr. Coulter's manner less interesting than his matter.",
+              "clean_hyp": "Nor is Mr. Coulter's manner less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, simile is drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, simile is drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        }
+      },
+      "silence": {
+        "dsp_off": {
+          "n_clips": 15,
+          "dsp_enabled": false,
+          "hallucination_count": 15,
+          "hallucination_rate_pct": 100.0,
+          "median_latency_ms": 284.5,
+          "examples": [
+            {
+              "id": "silence_000",
+              "text": "you"
+            },
+            {
+              "id": "silence_001",
+              "text": "you"
+            },
+            {
+              "id": "silence_002",
+              "text": "you"
+            }
+          ]
+        },
+        "dsp_on": {
+          "n_clips": 15,
+          "dsp_enabled": true,
+          "hallucination_count": 15,
+          "hallucination_rate_pct": 100.0,
+          "median_latency_ms": 282.0,
+          "examples": [
+            {
+              "id": "silence_000",
+              "text": "Thank you."
+            },
+            {
+              "id": "silence_001",
+              "text": "Thank you."
+            },
+            {
+              "id": "silence_002",
+              "text": "Thank you."
+            }
+          ]
+        }
+      },
+      "hallucination_probes": {
+        "n_clips": 20,
+        "wer_pct": 104.41,
+        "extra_word_clips_ge3": 0,
+        "extra_word_rate_pct": 0.0,
+        "mean_extra_words": 0.15,
+        "median_latency_ms": 288.3
+      }
+    },
+    {
+      "key": "mlx_whisper_small",
+      "label": "whisper-small-mlx",
+      "family": "mlx-whisper",
+      "repo_id": "mlx-community/whisper-small-mlx",
+      "disk_mb": 459.0,
+      "load_time_ms": 300.1,
+      "memory_idle": {
+        "ru_maxrss_mb": 858.8,
+        "footprint_mb": 1849.0,
+        "gpu_ioaccel_mb": 1393.0
+      },
+      "memory_peak": {
+        "ru_maxrss_mb": 933.8,
+        "footprint_mb": 2990.0,
+        "gpu_ioaccel_mb": 2500.0
+      },
+      "conditions": {
+        "normal_dsp_off": {
+          "n_clips": 40,
+          "dsp_enabled": false,
+          "wer_pct": 8.26,
+          "wer_after_rules_pct": 8.26,
+          "median_latency_ms": 111.2,
+          "p95_latency_ms": 379.4,
+          "mean_cleanup_us": 64.56,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr. Quilter is the apostle of the Middle Classes, and we are glad to welcome his Gospel.",
+              "clean_hyp": "Mr. Quilter is the apostle of the Middle Classes, and we are glad to welcome his Gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is Mr. Quilter's manner less interesting than his matter.",
+              "clean_hyp": "Nor is Mr. Quilter's manner less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, symbolies drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, symbolies drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        },
+        "soft_whisper_dsp_off": {
+          "n_clips": 40,
+          "dsp_enabled": false,
+          "wer_pct": 9.59,
+          "wer_after_rules_pct": 9.59,
+          "median_latency_ms": 139.4,
+          "p95_latency_ms": 357.1,
+          "mean_cleanup_us": 105.76,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+              "clean_hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is Mr. Quilter's manner less interesting than his matter.",
+              "clean_hyp": "Nor is Mr. Quilter's manner less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, symbolies drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, symbolies drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        },
+        "soft_whisper_dsp_on": {
+          "n_clips": 40,
+          "dsp_enabled": true,
+          "wer_pct": 10.47,
+          "wer_after_rules_pct": 10.47,
+          "median_latency_ms": 141.7,
+          "p95_latency_ms": 276.5,
+          "mean_cleanup_us": 59.01,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+              "clean_hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is Mr. Quilter's manner less interesting than his matter.",
+              "clean_hyp": "Nor is Mr. Quilter's manner less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, symbolies drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, symbolies drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        },
+        "pseudo_whisper_dsp_off": {
+          "n_clips": 40,
+          "dsp_enabled": false,
+          "wer_pct": 24.19,
+          "wer_after_rules_pct": 24.19,
+          "median_latency_ms": 113.0,
+          "p95_latency_ms": 348.0,
+          "mean_cleanup_us": 69.37,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+              "clean_hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "More is Mr. Coulter's manner of this interesting than his manner.",
+              "clean_hyp": "More is Mr. Coulter's manner of this interesting than his manner."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that this festive season of the year with Christmas and the beef looming before us, similarly is drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that this festive season of the year with Christmas and the beef looming before us, similarly is drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        },
+        "pseudo_whisper_dsp_on": {
+          "n_clips": 40,
+          "dsp_enabled": true,
+          "wer_pct": 24.63,
+          "wer_after_rules_pct": 24.48,
+          "median_latency_ms": 134.4,
+          "p95_latency_ms": 288.0,
+          "mean_cleanup_us": 66.16,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+              "clean_hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "More is Mr. Coulter's manner less interesting than his matter.",
+              "clean_hyp": "More is Mr. Coulter's manner less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year, with Christmas, it was beef looming before us. Similarly, it's drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year, with Christmas, it was beef looming before us. Similarly, it's drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        }
+      },
+      "silence": {
+        "dsp_off": {
+          "n_clips": 15,
+          "dsp_enabled": false,
+          "hallucination_count": 15,
+          "hallucination_rate_pct": 100.0,
+          "median_latency_ms": 50.7,
+          "examples": [
+            {
+              "id": "silence_000",
+              "text": "Thank you."
+            },
+            {
+              "id": "silence_001",
+              "text": "Thank you."
+            },
+            {
+              "id": "silence_002",
+              "text": "Thank you."
+            }
+          ]
+        },
+        "dsp_on": {
+          "n_clips": 15,
+          "dsp_enabled": true,
+          "hallucination_count": 15,
+          "hallucination_rate_pct": 100.0,
+          "median_latency_ms": 62.3,
+          "examples": [
+            {
+              "id": "silence_000",
+              "text": "you"
+            },
+            {
+              "id": "silence_001",
+              "text": "you"
+            },
+            {
+              "id": "silence_002",
+              "text": "you"
+            }
+          ]
+        }
+      },
+      "hallucination_probes": {
+        "n_clips": 20,
+        "wer_pct": 1389.71,
+        "extra_word_clips_ge3": 4,
+        "extra_word_rate_pct": 20.0,
+        "mean_extra_words": 43.85,
+        "median_latency_ms": 121.2
+      }
+    },
+    {
+      "key": "mlx_whisper_tiny",
+      "label": "whisper-tiny-mlx",
+      "family": "mlx-whisper",
+      "repo_id": "mlx-community/whisper-tiny-mlx",
+      "disk_mb": 71.0,
+      "load_time_ms": 160.5,
+      "memory_idle": {
+        "ru_maxrss_mb": 372.3,
+        "footprint_mb": 643.0,
+        "gpu_ioaccel_mb": 284.0
+      },
+      "memory_peak": {
+        "ru_maxrss_mb": 428.9,
+        "footprint_mb": 1638.0,
+        "gpu_ioaccel_mb": 1253.0
+      },
+      "conditions": {
+        "normal_dsp_off": {
+          "n_clips": 40,
+          "dsp_enabled": false,
+          "wer_pct": 12.54,
+          "wer_after_rules_pct": 12.54,
+          "median_latency_ms": 25.8,
+          "p95_latency_ms": 61.6,
+          "mean_cleanup_us": 39.43,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr. Kilder is the apostle of the middle classes and we are glad to welcome his gospel.",
+              "clean_hyp": "Mr. Kilder is the apostle of the middle classes and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is Mr. Quilters' manner less interesting than his matter.",
+              "clean_hyp": "Nor is Mr. Quilters' manner less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similarly drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similarly drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        },
+        "soft_whisper_dsp_off": {
+          "n_clips": 40,
+          "dsp_enabled": false,
+          "wer_pct": 20.65,
+          "wer_after_rules_pct": 20.5,
+          "median_latency_ms": 33.5,
+          "p95_latency_ms": 72.2,
+          "mean_cleanup_us": 32.86,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr. Kilder is the apostle of the middle classes and we are glad to welcome his gospel.",
+              "clean_hyp": "Mr. Kilder is the apostle of the middle classes and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is Mr. Colter's manner less interesting than his matter.",
+              "clean_hyp": "Nor is Mr. Colter's manner less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year with Christmas and Rose Beef looming before us, Simalee is drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year with Christmas and Rose Beef looming before us, Simalee is drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        },
+        "soft_whisper_dsp_on": {
+          "n_clips": 40,
+          "dsp_enabled": true,
+          "wer_pct": 19.91,
+          "wer_after_rules_pct": 19.76,
+          "median_latency_ms": 30.4,
+          "p95_latency_ms": 68.6,
+          "mean_cleanup_us": 32.78,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr. Kilder is the apostle of the middle classes and we are glad to welcome his gospel.",
+              "clean_hyp": "Mr. Kilder is the apostle of the middle classes and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is Mr. Colter's manner less interesting than his matter.",
+              "clean_hyp": "Nor is Mr. Colter's manner less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year with Christmas and Rose beef looming before us, Simulese drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year with Christmas and Rose beef looming before us, Simulese drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        },
+        "pseudo_whisper_dsp_off": {
+          "n_clips": 40,
+          "dsp_enabled": false,
+          "wer_pct": 72.57,
+          "wer_after_rules_pct": 72.57,
+          "median_latency_ms": 35.3,
+          "p95_latency_ms": 106.5,
+          "mean_cleanup_us": 38.17,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "It's the culture is the apostle of the middle classes. You're glad to welcome his gospel.",
+              "clean_hyp": "It's the culture is the apostle of the middle classes. You're glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "More is Mr. Coltrus mayor of this interesting event is Matter.",
+              "clean_hyp": "More is Mr. Coltrus mayor of this interesting event is Matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that this festive season of the year with Christmas and those beef looming before us, somebody is drawn from eating in its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that this festive season of the year with Christmas and those beef looming before us, somebody is drawn from eating in its results occur most readily to the mind."
+            }
+          ]
+        },
+        "pseudo_whisper_dsp_on": {
+          "n_clips": 40,
+          "dsp_enabled": true,
+          "wer_pct": 67.7,
+          "wer_after_rules_pct": 67.7,
+          "median_latency_ms": 36.0,
+          "p95_latency_ms": 107.4,
+          "mean_cleanup_us": 36.9,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Make the culture as the apostle of little classes and you're glad to welcome his gospel.",
+              "clean_hyp": "Make the culture as the apostle of little classes and you're glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "More as Mr. Colkis Manor, the interesting thing is matter.",
+              "clean_hyp": "More as Mr. Colkis Manor, the interesting thing is matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that this festive season of the year with Christmas and those beef blooming before us, somebody is drawn from eating in its results or a girl who was readily to the mind.",
+              "clean_hyp": "He tells us that this festive season of the year with Christmas and those beef blooming before us, somebody is drawn from eating in its results or a girl who was readily to the mind."
+            }
+          ]
+        }
+      },
+      "silence": {
+        "dsp_off": {
+          "n_clips": 15,
+          "dsp_enabled": false,
+          "hallucination_count": 3,
+          "hallucination_rate_pct": 20.0,
+          "median_latency_ms": 12.6,
+          "examples": [
+            {
+              "id": "silence_003",
+              "text": "you"
+            },
+            {
+              "id": "silence_005",
+              "text": "you"
+            },
+            {
+              "id": "silence_012",
+              "text": "you"
+            }
+          ]
+        },
+        "dsp_on": {
+          "n_clips": 15,
+          "dsp_enabled": true,
+          "hallucination_count": 2,
+          "hallucination_rate_pct": 13.3,
+          "median_latency_ms": 7.8,
+          "examples": [
+            {
+              "id": "silence_001",
+              "text": "Thank you."
+            },
+            {
+              "id": "silence_011",
+              "text": "Thank you."
+            }
+          ]
+        }
+      },
+      "hallucination_probes": {
+        "n_clips": 20,
+        "wer_pct": 1069.12,
+        "extra_word_clips_ge3": 4,
+        "extra_word_rate_pct": 20.0,
+        "mean_extra_words": 32.95,
+        "median_latency_ms": 14.4
+      }
+    },
+    {
+      "key": "faster_whisper_base",
+      "label": "faster-whisper-base (int8 CPU)",
+      "family": "faster-whisper",
+      "repo_id": "Systran/faster-whisper-base",
+      "disk_mb": 141.0,
+      "load_time_ms": 153.9,
+      "memory_idle": {
+        "ru_maxrss_mb": 477.5,
+        "footprint_mb": 414.0,
+        "gpu_ioaccel_mb": 0.1
+      },
+      "memory_peak": {
+        "ru_maxrss_mb": 837.4,
+        "footprint_mb": 552.0,
+        "gpu_ioaccel_mb": 0.1
+      },
+      "conditions": {
+        "normal_dsp_off": {
+          "n_clips": 40,
+          "dsp_enabled": false,
+          "wer_pct": 8.55,
+          "wer_after_rules_pct": 8.55,
+          "median_latency_ms": 472.9,
+          "p95_latency_ms": 1029.5,
+          "mean_cleanup_us": 49.37,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+              "clean_hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is Mr. Quilter's manner less interesting than his matter.",
+              "clean_hyp": "Nor is Mr. Quilter's manner less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similarly is drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similarly is drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        },
+        "soft_whisper_dsp_off": {
+          "n_clips": 40,
+          "dsp_enabled": false,
+          "wer_pct": 13.86,
+          "wer_after_rules_pct": 13.86,
+          "median_latency_ms": 497.8,
+          "p95_latency_ms": 1174.5,
+          "mean_cleanup_us": 45.51,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr. Quilter is the Apostle of the Middle Classes, and we are glad to welcome his gospel.",
+              "clean_hyp": "Mr. Quilter is the Apostle of the Middle Classes, and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is Mr. Colter's manner less interesting than his matter.",
+              "clean_hyp": "Nor is Mr. Colter's manner less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year, with Christmas and Rose beef looming before us, similes drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year, with Christmas and Rose beef looming before us, similes drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        },
+        "soft_whisper_dsp_on": {
+          "n_clips": 40,
+          "dsp_enabled": true,
+          "wer_pct": 14.9,
+          "wer_after_rules_pct": 14.75,
+          "median_latency_ms": 592.2,
+          "p95_latency_ms": 1315.3,
+          "mean_cleanup_us": 51.96,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+              "clean_hyp": "Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is Mr. Colter's manner less interesting than his matter.",
+              "clean_hyp": "Nor is Mr. Colter's manner less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year, with Christmas and Rose beef looming before us, similarly drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year, with Christmas and Rose beef looming before us, similarly drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        },
+        "pseudo_whisper_dsp_off": {
+          "n_clips": 40,
+          "dsp_enabled": false,
+          "wer_pct": 33.04,
+          "wer_after_rules_pct": 32.89,
+          "median_latency_ms": 609.6,
+          "p95_latency_ms": 1671.9,
+          "mean_cleanup_us": 50.27,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr. Quilter is the apostle of the Middle Classes and we are glad to welcome his gospel.",
+              "clean_hyp": "Mr. Quilter is the apostle of the Middle Classes and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is Mr. Colter's manner of less interesting than his matter.",
+              "clean_hyp": "Nor is Mr. Colter's manner of less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year, with Christmas, it was beef looming before us, similarly is drawn from eating and its results occur more readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year, with Christmas, it was beef looming before us, similarly is drawn from eating and its results occur more readily to the mind."
+            }
+          ]
+        },
+        "pseudo_whisper_dsp_on": {
+          "n_clips": 40,
+          "dsp_enabled": true,
+          "wer_pct": 30.83,
+          "wer_after_rules_pct": 30.68,
+          "median_latency_ms": 668.4,
+          "p95_latency_ms": 1242.3,
+          "mean_cleanup_us": 55.73,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr. Quilter is the apostle of the Middle Classes, and we are glad to welcome his gospel.",
+              "clean_hyp": "Mr. Quilter is the apostle of the Middle Classes, and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is Mr. Colter's manner of less interesting than his matter.",
+              "clean_hyp": "Nor is Mr. Colter's manner of less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year, with Christmas it was beef looming before us, somebody is drawing from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year, with Christmas it was beef looming before us, somebody is drawing from eating and its results occur most readily to the mind."
+            }
+          ]
+        }
+      },
+      "silence": {
+        "dsp_off": {
+          "n_clips": 15,
+          "dsp_enabled": false,
+          "hallucination_count": 15,
+          "hallucination_rate_pct": 100.0,
+          "median_latency_ms": 555.0,
+          "examples": [
+            {
+              "id": "silence_000",
+              "text": "You"
+            },
+            {
+              "id": "silence_001",
+              "text": "I'm sorry."
+            },
+            {
+              "id": "silence_002",
+              "text": "Thank you very much."
+            }
+          ]
+        },
+        "dsp_on": {
+          "n_clips": 15,
+          "dsp_enabled": true,
+          "hallucination_count": 13,
+          "hallucination_rate_pct": 86.7,
+          "median_latency_ms": 446.8,
+          "examples": [
+            {
+              "id": "silence_001",
+              "text": "You"
+            },
+            {
+              "id": "silence_002",
+              "text": "You"
+            },
+            {
+              "id": "silence_003",
+              "text": "You"
+            }
+          ]
+        }
+      },
+      "hallucination_probes": {
+        "n_clips": 20,
+        "wer_pct": 104.41,
+        "extra_word_clips_ge3": 1,
+        "extra_word_rate_pct": 5.0,
+        "mean_extra_words": 0.15,
+        "median_latency_ms": 474.0
+      }
+    },
+    {
+      "key": "parakeet_mlx_v3",
+      "label": "parakeet-tdt-0.6b-v3 (MLX)",
+      "family": "parakeet-mlx",
+      "repo_id": "mlx-community/parakeet-tdt-0.6b-v3",
+      "disk_mb": 2392.8,
+      "load_time_ms": 359.8,
+      "memory_idle": {
+        "ru_maxrss_mb": 873.9,
+        "footprint_mb": 2497.0,
+        "gpu_ioaccel_mb": 2191.0
+      },
+      "memory_peak": {
+        "ru_maxrss_mb": 963.4,
+        "footprint_mb": 9599.0,
+        "gpu_ioaccel_mb": 9252.0
+      },
+      "conditions": {
+        "normal_dsp_off": {
+          "n_clips": 40,
+          "dsp_enabled": false,
+          "wer_pct": 3.24,
+          "wer_after_rules_pct": 3.24,
+          "median_latency_ms": 126.1,
+          "p95_latency_ms": 201.1,
+          "mean_cleanup_us": 91.75,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "mister Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+              "clean_hyp": "Mister Quilter is the apostle of the middle classes, and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is mister Quilter's manner less interesting than his matter.",
+              "clean_hyp": "Nor is mister Quilter's manner less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        },
+        "soft_whisper_dsp_off": {
+          "n_clips": 40,
+          "dsp_enabled": false,
+          "wer_pct": 5.16,
+          "wer_after_rules_pct": 5.16,
+          "median_latency_ms": 142.8,
+          "p95_latency_ms": 249.4,
+          "mean_cleanup_us": 101.22,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+              "clean_hyp": "Mr Quilter is the apostle of the middle classes, and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is Mr. Coker's manner less interesting than his matter.",
+              "clean_hyp": "Nor is Mr. Coker's manner less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        },
+        "soft_whisper_dsp_on": {
+          "n_clips": 40,
+          "dsp_enabled": true,
+          "wer_pct": 3.83,
+          "wer_after_rules_pct": 3.83,
+          "median_latency_ms": 119.4,
+          "p95_latency_ms": 192.6,
+          "mean_cleanup_us": 81.22,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "mister Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+              "clean_hyp": "Mister Quilter is the apostle of the middle classes, and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is mister Quilter's manner less interesting than his matter,",
+              "clean_hyp": "Nor is mister Quilter's manner less interesting than his matter,"
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        },
+        "pseudo_whisper_dsp_off": {
+          "n_clips": 40,
+          "dsp_enabled": false,
+          "wer_pct": 11.65,
+          "wer_after_rules_pct": 11.65,
+          "median_latency_ms": 144.6,
+          "p95_latency_ms": 338.7,
+          "mean_cleanup_us": 93.36,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+              "clean_hyp": "Mr Quilter is the apostle of the middle classes, and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is mister Colter's manner less interesting than his matter.",
+              "clean_hyp": "Nor is mister Colter's manner less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, simile is drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, simile is drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        },
+        "pseudo_whisper_dsp_on": {
+          "n_clips": 40,
+          "dsp_enabled": true,
+          "wer_pct": 8.85,
+          "wer_after_rules_pct": 8.85,
+          "median_latency_ms": 136.0,
+          "p95_latency_ms": 250.5,
+          "mean_cleanup_us": 89.83,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+              "clean_hyp": "Mr Quilter is the apostle of the middle classes, and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "nor is mister Colter's manner less interesting than his matter.",
+              "clean_hyp": "Nor is mister Colter's manner less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, simile is drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, simile is drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        }
+      },
+      "silence": {
+        "dsp_off": {
+          "n_clips": 15,
+          "dsp_enabled": false,
+          "hallucination_count": 0,
+          "hallucination_rate_pct": 0.0,
+          "median_latency_ms": 115.1,
+          "examples": []
+        },
+        "dsp_on": {
+          "n_clips": 15,
+          "dsp_enabled": true,
+          "hallucination_count": 7,
+          "hallucination_rate_pct": 46.7,
+          "median_latency_ms": 86.1,
+          "examples": [
+            {
+              "id": "silence_001",
+              "text": "Yeah."
+            },
+            {
+              "id": "silence_003",
+              "text": "Yeah."
+            },
+            {
+              "id": "silence_005",
+              "text": "Yeah."
+            }
+          ]
+        }
+      },
+      "hallucination_probes": {
+        "n_clips": 20,
+        "wer_pct": 95.59,
+        "extra_word_clips_ge3": 0,
+        "extra_word_rate_pct": 0.0,
+        "mean_extra_words": 0,
+        "median_latency_ms": 84.0
+      }
+    },
+    {
+      "key": "sherpa_parakeet_int8",
+      "label": "sherpa-onnx parakeet-tdt-0.6b-v3-int8 (CPU)",
+      "family": "sherpa-onnx",
+      "repo_id": "csukuangfj/sherpa-onnx-nemo-parakeet-tdt-0.6b-v3-int8",
+      "disk_mb": 640.1,
+      "load_time_ms": 1231.2,
+      "memory_idle": {
+        "ru_maxrss_mb": 1963.8,
+        "footprint_mb": 1892.0,
+        "gpu_ioaccel_mb": 0.1
+      },
+      "memory_peak": {
+        "ru_maxrss_mb": 2409.9,
+        "footprint_mb": 1893.0,
+        "gpu_ioaccel_mb": 0.1
+      },
+      "conditions": {
+        "normal_dsp_off": {
+          "n_clips": 40,
+          "dsp_enabled": false,
+          "wer_pct": 3.83,
+          "wer_after_rules_pct": 3.83,
+          "median_latency_ms": 172.6,
+          "p95_latency_ms": 469.0,
+          "mean_cleanup_us": 47.86,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "mister Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+              "clean_hyp": "Mister Quilter is the apostle of the middle classes, and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is mister Quilter's manner less interesting than his matter.",
+              "clean_hyp": "Nor is mister Quilter's manner less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        },
+        "soft_whisper_dsp_off": {
+          "n_clips": 40,
+          "dsp_enabled": false,
+          "wer_pct": 5.9,
+          "wer_after_rules_pct": 5.9,
+          "median_latency_ms": 214.8,
+          "p95_latency_ms": 548.6,
+          "mean_cleanup_us": 67.3,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "mister Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+              "clean_hyp": "Mister Quilter is the apostle of the middle classes, and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is mister Croker's manner less interesting than his matter.",
+              "clean_hyp": "Nor is mister Croker's manner less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        },
+        "soft_whisper_dsp_on": {
+          "n_clips": 40,
+          "dsp_enabled": true,
+          "wer_pct": 7.08,
+          "wer_after_rules_pct": 7.08,
+          "median_latency_ms": 241.4,
+          "p95_latency_ms": 657.8,
+          "mean_cleanup_us": 70.84,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.",
+              "clean_hyp": "Mr Quilter is the apostle of the middle classes, and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is mister Croaker's manner less interesting than his matter.",
+              "clean_hyp": "Nor is mister Croaker's manner less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that at this festive season the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that at this festive season the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        },
+        "pseudo_whisper_dsp_off": {
+          "n_clips": 40,
+          "dsp_enabled": false,
+          "wer_pct": 24.04,
+          "wer_after_rules_pct": 24.04,
+          "median_latency_ms": 286.8,
+          "p95_latency_ms": 755.1,
+          "mean_cleanup_us": 72.5,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr. Crocker is the apostle of the middle classes, and we are glad to welcome his gospel.",
+              "clean_hyp": "Mr. Crocker is the apostle of the middle classes, and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is Mr. Croaker's manner less interesting than his matter.",
+              "clean_hyp": "Nor is Mr. Croaker's manner less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that it's this festive season of the year, with Christmas and those beef looming before us. Similar is drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that it's this festive season of the year, with Christmas and those beef looming before us. Similar is drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        },
+        "pseudo_whisper_dsp_on": {
+          "n_clips": 40,
+          "dsp_enabled": true,
+          "wer_pct": 22.42,
+          "wer_after_rules_pct": 22.42,
+          "median_latency_ms": 269.2,
+          "p95_latency_ms": 723.9,
+          "mean_cleanup_us": 64.42,
+          "sample_outputs": [
+            {
+              "id": "ls_000",
+              "ref": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+              "hyp": "Mr. Kruger is the apostle of the middle classes, and we are glad to welcome his gospel.",
+              "clean_hyp": "Mr. Kruger is the apostle of the middle classes, and we are glad to welcome his gospel."
+            },
+            {
+              "id": "ls_001",
+              "ref": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+              "hyp": "Nor is Mr. Coke's manner less interesting than his matter.",
+              "clean_hyp": "Nor is Mr. Coke's manner less interesting than his matter."
+            },
+            {
+              "id": "ls_002",
+              "ref": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+              "hyp": "He tells us that it's this festive season of the year, with Christmas and most beef looming before us. Similar is drawn from eating and its results occur most readily to the mind.",
+              "clean_hyp": "He tells us that it's this festive season of the year, with Christmas and most beef looming before us. Similar is drawn from eating and its results occur most readily to the mind."
+            }
+          ]
+        }
+      },
+      "silence": {
+        "dsp_off": {
+          "n_clips": 15,
+          "dsp_enabled": false,
+          "hallucination_count": 0,
+          "hallucination_rate_pct": 0.0,
+          "median_latency_ms": 132.0,
+          "examples": []
+        },
+        "dsp_on": {
+          "n_clips": 15,
+          "dsp_enabled": true,
+          "hallucination_count": 7,
+          "hallucination_rate_pct": 46.7,
+          "median_latency_ms": 100.5,
+          "examples": [
+            {
+              "id": "silence_001",
+              "text": "Yeah."
+            },
+            {
+              "id": "silence_003",
+              "text": "Yeah."
+            },
+            {
+              "id": "silence_005",
+              "text": "Yeah."
+            }
+          ]
+        }
+      },
+      "hallucination_probes": {
+        "n_clips": 20,
+        "wer_pct": 100.0,
+        "extra_word_clips_ge3": 0,
+        "extra_word_rate_pct": 0.0,
+        "mean_extra_words": 0,
+        "median_latency_ms": 70.0
+      }
+    }
+  ]
+}

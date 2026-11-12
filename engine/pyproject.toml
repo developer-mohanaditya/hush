@@ -1,0 +1,40 @@
+[project]
+name = "sottovox-engine"
+version = "0.1.0"
+description = "Local whisper-tuned DSP, Apple Silicon MLX Whisper ASR, and Ollama prompt cleanup for quiet library dictation"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "fastapi>=0.115.0",
+    "faster-whisper>=1.1.0",
+    "httpx>=0.28.0",
+    "huggingface-hub>=0.25.0",
+    "mlx-whisper>=0.4.0",
+    "numpy>=1.26.0",
+    "python-multipart>=0.0.12",
+    "scipy>=1.13.0",
+    "sherpa-onnx>=1.10.0",
+    "sounddevice>=0.5.0",
+    "soundfile>=0.12.1",
+    "uvicorn>=0.32.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]
+benchmark = [
+    "datasets>=3.0.0",
+    "jiwer>=3.0.0",
+    "parakeet-mlx>=0.4.0",
+]
+
+[project.scripts]
+sottovox-server = "sottovox_engine.server:main"
+sottovox-cli = "sottovox_engine.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["sottovox_engine*"]

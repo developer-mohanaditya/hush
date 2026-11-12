@@ -1,0 +1,601 @@
+{
+  "speech_count": 40,
+  "silence_count": 15,
+  "hallucination_probe_count": 20,
+  "speech_items": [
+    {
+      "id": "ls_000",
+      "speaker_id": "1272",
+      "duration_sec": 5.855,
+      "ground_truth": "MISTER QUILTER IS THE APOSTLE OF THE MIDDLE CLASSES AND WE ARE GLAD TO WELCOME HIS GOSPEL",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_000.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_000.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_000.wav"
+    },
+    {
+      "id": "ls_001",
+      "speaker_id": "1272",
+      "duration_sec": 4.815,
+      "ground_truth": "NOR IS MISTER QUILTER'S MANNER LESS INTERESTING THAN HIS MATTER",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_001.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_001.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_001.wav"
+    },
+    {
+      "id": "ls_002",
+      "speaker_id": "1272",
+      "duration_sec": 12.485,
+      "ground_truth": "HE TELLS US THAT AT THIS FESTIVE SEASON OF THE YEAR WITH CHRISTMAS AND ROAST BEEF LOOMING BEFORE US SIMILES DRAWN FROM EATING AND ITS RESULTS OCCUR MOST READILY TO THE MIND",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_002.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_002.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_002.wav"
+    },
+    {
+      "id": "ls_003",
+      "speaker_id": "1272",
+      "duration_sec": 9.9,
+      "ground_truth": "HE HAS GRAVE DOUBTS WHETHER SIR FREDERICK LEIGHTON'S WORK IS REALLY GREEK AFTER ALL AND CAN DISCOVER IN IT BUT LITTLE OF ROCKY ITHACA",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_003.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_003.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_003.wav"
+    },
+    {
+      "id": "ls_004",
+      "speaker_id": "1272",
+      "duration_sec": 29.4,
+      "ground_truth": "LINNELL'S PICTURES ARE A SORT OF UP GUARDS AND AT EM PAINTINGS AND MASON'S EXQUISITE IDYLLS ARE AS NATIONAL AS A JINGO POEM MISTER BIRKET FOSTER'S LANDSCAPES SMILE AT ONE MUCH IN THE SAME WAY THAT MISTER CARKER USED TO FLASH HIS TEETH AND MISTER JOHN COLLIER GIVES HIS SITTER A CHEERFUL SLAP ON THE BACK BEFORE HE SAYS LIKE A SHAMPOOER IN A TURKISH BATH NEXT MAN",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_004.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_004.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_004.wav"
+    },
+    {
+      "id": "ls_005",
+      "speaker_id": "1272",
+      "duration_sec": 9.01,
+      "ground_truth": "IT IS OBVIOUSLY UNNECESSARY FOR US TO POINT OUT HOW LUMINOUS THESE CRITICISMS ARE HOW DELICATE IN EXPRESSION",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_005.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_005.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_005.wav"
+    },
+    {
+      "id": "ls_006",
+      "speaker_id": "1272",
+      "duration_sec": 5.64,
+      "ground_truth": "ON THE GENERAL PRINCIPLES OF ART MISTER QUILTER WRITES WITH EQUAL LUCIDITY",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_006.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_006.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_006.wav"
+    },
+    {
+      "id": "ls_007",
+      "speaker_id": "1272",
+      "duration_sec": 9.24,
+      "ground_truth": "PAINTING HE TELLS US IS OF A DIFFERENT QUALITY TO MATHEMATICS AND FINISH IN ART IS ADDING MORE FACT",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_007.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_007.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_007.wav"
+    },
+    {
+      "id": "ls_008",
+      "speaker_id": "1272",
+      "duration_sec": 5.12,
+      "ground_truth": "AS FOR ETCHINGS THEY ARE OF TWO KINDS BRITISH AND FOREIGN",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_008.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_008.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_008.wav"
+    },
+    {
+      "id": "ls_009",
+      "speaker_id": "1272",
+      "duration_sec": 18.29,
+      "ground_truth": "HE LAMENTS MOST BITTERLY THE DIVORCE THAT HAS BEEN MADE BETWEEN DECORATIVE ART AND WHAT WE USUALLY CALL PICTURES MAKES THE CUSTOMARY APPEAL TO THE LAST JUDGMENT AND REMINDS US THAT IN THE GREAT DAYS OF ART MICHAEL ANGELO WAS THE FURNISHING UPHOLSTERER",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_009.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_009.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_009.wav"
+    },
+    {
+      "id": "ls_010",
+      "speaker_id": "1272",
+      "duration_sec": 5.6,
+      "ground_truth": "NEAR THE FIRE AND THE ORNAMENTS FRED BROUGHT HOME FROM INDIA ON THE MANTEL BOARD",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_010.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_010.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_010.wav"
+    },
+    {
+      "id": "ls_011",
+      "speaker_id": "1272",
+      "duration_sec": 15.115,
+      "ground_truth": "IN FACT HE IS QUITE SEVERE ON MISTER RUSKIN FOR NOT RECOGNISING THAT A PICTURE SHOULD DENOTE THE FRAILTY OF MAN AND REMARKS WITH PLEASING COURTESY AND FELICITOUS GRACE THAT MANY PHASES OF FEELING",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_011.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_011.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_011.wav"
+    },
+    {
+      "id": "ls_012",
+      "speaker_id": "1272",
+      "duration_sec": 5.38,
+      "ground_truth": "ONLY UNFORTUNATELY HIS OWN WORK NEVER DOES GET GOOD",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_012.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_012.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_012.wav"
+    },
+    {
+      "id": "ls_013",
+      "speaker_id": "1272",
+      "duration_sec": 7.1,
+      "ground_truth": "MISTER QUILTER HAS MISSED HIS CHANCE FOR HE HAS FAILED EVEN TO MAKE HIMSELF THE TUPPER OF PAINTING",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_013.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_013.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_013.wav"
+    },
+    {
+      "id": "ls_014",
+      "speaker_id": "1272",
+      "duration_sec": 2.245,
+      "ground_truth": "BY HARRY QUILTER M A",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_014.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_014.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_014.wav"
+    },
+    {
+      "id": "ls_015",
+      "speaker_id": "1272",
+      "duration_sec": 10.885,
+      "ground_truth": "BECAUSE YOU WERE SLEEPING INSTEAD OF CONQUERING THE LOVELY ROSE PRINCESS HAS BECOME A FIDDLE WITHOUT A BOW WHILE POOR SHAGGY SITS THERE A COOING DOVE",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_015.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_015.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_015.wav"
+    },
+    {
+      "id": "ls_016",
+      "speaker_id": "1272",
+      "duration_sec": 11.13,
+      "ground_truth": "HE HAS GONE AND GONE FOR GOOD ANSWERED POLYCHROME WHO HAD MANAGED TO SQUEEZE INTO THE ROOM BESIDE THE DRAGON AND HAD WITNESSED THE OCCURRENCES WITH MUCH INTEREST",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_016.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_016.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_016.wav"
+    },
+    {
+      "id": "ls_017",
+      "speaker_id": "1272",
+      "duration_sec": 11.475,
+      "ground_truth": "I HAVE REMAINED A PRISONER ONLY BECAUSE I WISHED TO BE ONE AND WITH THIS HE STEPPED FORWARD AND BURST THE STOUT CHAINS AS EASILY AS IF THEY HAD BEEN THREADS",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_017.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_017.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_017.wav"
+    },
+    {
+      "id": "ls_018",
+      "speaker_id": "1272",
+      "duration_sec": 4.755,
+      "ground_truth": "THE LITTLE GIRL HAD BEEN ASLEEP BUT SHE HEARD THE RAPS AND OPENED THE DOOR",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_018.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_018.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_018.wav"
+    },
+    {
+      "id": "ls_019",
+      "speaker_id": "1272",
+      "duration_sec": 4.225,
+      "ground_truth": "THE KING HAS FLED IN DISGRACE AND YOUR FRIENDS ARE ASKING FOR YOU",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_019.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_019.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_019.wav"
+    },
+    {
+      "id": "ls_020",
+      "speaker_id": "1272",
+      "duration_sec": 4.625,
+      "ground_truth": "I BEGGED RUGGEDO LONG AGO TO SEND HIM AWAY BUT HE WOULD NOT DO SO",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_020.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_020.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_020.wav"
+    },
+    {
+      "id": "ls_021",
+      "speaker_id": "1272",
+      "duration_sec": 4.09,
+      "ground_truth": "I ALSO OFFERED TO HELP YOUR BROTHER TO ESCAPE BUT HE WOULD NOT GO",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_021.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_021.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_021.wav"
+    },
+    {
+      "id": "ls_022",
+      "speaker_id": "1272",
+      "duration_sec": 4.055,
+      "ground_truth": "HE EATS AND SLEEPS VERY STEADILY REPLIED THE NEW KING",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_022.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_022.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_022.wav"
+    },
+    {
+      "id": "ls_023",
+      "speaker_id": "1272",
+      "duration_sec": 3.67,
+      "ground_truth": "I HOPE HE DOESN'T WORK TOO HARD SAID SHAGGY",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_023.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_023.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_023.wav"
+    },
+    {
+      "id": "ls_024",
+      "speaker_id": "1272",
+      "duration_sec": 1.91,
+      "ground_truth": "HE DOESN'T WORK AT ALL",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_024.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_024.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_024.wav"
+    },
+    {
+      "id": "ls_025",
+      "speaker_id": "1272",
+      "duration_sec": 8.995,
+      "ground_truth": "IN FACT THERE IS NOTHING HE CAN DO IN THESE DOMINIONS AS WELL AS OUR NOMES WHOSE NUMBERS ARE SO GREAT THAT IT WORRIES US TO KEEP THEM ALL BUSY",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_025.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_025.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_025.wav"
+    },
+    {
+      "id": "ls_026",
+      "speaker_id": "1272",
+      "duration_sec": 3.18,
+      "ground_truth": "NOT EXACTLY RETURNED KALIKO",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_026.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_026.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_026.wav"
+    },
+    {
+      "id": "ls_027",
+      "speaker_id": "1272",
+      "duration_sec": 2.04,
+      "ground_truth": "WHERE IS MY BROTHER NOW",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_027.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_027.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_027.wav"
+    },
+    {
+      "id": "ls_028",
+      "speaker_id": "1272",
+      "duration_sec": 3.7,
+      "ground_truth": "INQUIRED SHAGGY IN THE METAL FOREST",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_028.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_028.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_028.wav"
+    },
+    {
+      "id": "ls_029",
+      "speaker_id": "1272",
+      "duration_sec": 1.74,
+      "ground_truth": "WHERE IS THAT",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_029.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_029.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_029.wav"
+    },
+    {
+      "id": "ls_030",
+      "speaker_id": "1272",
+      "duration_sec": 7.375,
+      "ground_truth": "THE METAL FOREST IS IN THE GREAT DOMED CAVERN THE LARGEST IN ALL OUR DOMINIONS REPLIED KALIKO",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_030.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_030.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_030.wav"
+    },
+    {
+      "id": "ls_031",
+      "speaker_id": "1272",
+      "duration_sec": 2.28,
+      "ground_truth": "KALIKO HESITATED",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_031.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_031.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_031.wav"
+    },
+    {
+      "id": "ls_032",
+      "speaker_id": "1272",
+      "duration_sec": 6.86,
+      "ground_truth": "HOWEVER IF WE LOOK SHARP WE MAY BE ABLE TO DISCOVER ONE OF THESE SECRET WAYS",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_032.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_032.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_032.wav"
+    },
+    {
+      "id": "ls_033",
+      "speaker_id": "1272",
+      "duration_sec": 2.445,
+      "ground_truth": "OH NO I'M QUITE SURE HE DIDN'T",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_033.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_033.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_033.wav"
+    },
+    {
+      "id": "ls_034",
+      "speaker_id": "1272",
+      "duration_sec": 3.525,
+      "ground_truth": "THAT'S FUNNY REMARKED BETSY THOUGHTFULLY",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_034.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_034.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_034.wav"
+    },
+    {
+      "id": "ls_035",
+      "speaker_id": "1272",
+      "duration_sec": 4.65,
+      "ground_truth": "I DON'T BELIEVE ANN KNEW ANY MAGIC OR SHE'D HAVE WORKED IT BEFORE",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_035.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_035.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_035.wav"
+    },
+    {
+      "id": "ls_036",
+      "speaker_id": "1272",
+      "duration_sec": 2.595,
+      "ground_truth": "I DO NOT KNOW CONFESSED SHAGGY",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_036.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_036.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_036.wav"
+    },
+    {
+      "id": "ls_037",
+      "speaker_id": "1272",
+      "duration_sec": 2.695,
+      "ground_truth": "TRUE AGREED KALIKO",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_037.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_037.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_037.wav"
+    },
+    {
+      "id": "ls_038",
+      "speaker_id": "1272",
+      "duration_sec": 7.52,
+      "ground_truth": "KALIKO WENT TO THE BIG GONG AND POUNDED ON IT JUST AS RUGGEDO USED TO DO BUT NO ONE ANSWERED THE SUMMONS",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_038.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_038.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_038.wav"
+    },
+    {
+      "id": "ls_039",
+      "speaker_id": "1272",
+      "duration_sec": 14.47,
+      "ground_truth": "HAVING RETURNED TO THE ROYAL CAVERN KALIKO FIRST POUNDED THE GONG AND THEN SAT IN THE THRONE WEARING RUGGEDO'S DISCARDED RUBY CROWN AND HOLDING IN HIS HAND THE SCEPTRE WHICH RUGGEDO HAD SO OFTEN THROWN AT HIS HEAD",
+      "normal_path": "/Volumes/aditya/hush/datasets/data/normal/ls_039.wav",
+      "soft_whisper_path": "/Volumes/aditya/hush/datasets/data/soft_whisper/ls_039.wav",
+      "pseudo_whisper_path": "/Volumes/aditya/hush/datasets/data/pseudo_whisper/ls_039.wav"
+    }
+  ],
+  "silence_items": [
+    {
+      "id": "silence_000",
+      "duration_sec": 2.0,
+      "ground_truth": "",
+      "path": "/Volumes/aditya/hush/datasets/data/silence_noise/silence_000.wav"
+    },
+    {
+      "id": "silence_001",
+      "duration_sec": 2.5,
+      "ground_truth": "",
+      "path": "/Volumes/aditya/hush/datasets/data/silence_noise/silence_001.wav"
+    },
+    {
+      "id": "silence_002",
+      "duration_sec": 3.0,
+      "ground_truth": "",
+      "path": "/Volumes/aditya/hush/datasets/data/silence_noise/silence_002.wav"
+    },
+    {
+      "id": "silence_003",
+      "duration_sec": 2.0,
+      "ground_truth": "",
+      "path": "/Volumes/aditya/hush/datasets/data/silence_noise/silence_003.wav"
+    },
+    {
+      "id": "silence_004",
+      "duration_sec": 2.5,
+      "ground_truth": "",
+      "path": "/Volumes/aditya/hush/datasets/data/silence_noise/silence_004.wav"
+    },
+    {
+      "id": "silence_005",
+      "duration_sec": 3.0,
+      "ground_truth": "",
+      "path": "/Volumes/aditya/hush/datasets/data/silence_noise/silence_005.wav"
+    },
+    {
+      "id": "silence_006",
+      "duration_sec": 2.0,
+      "ground_truth": "",
+      "path": "/Volumes/aditya/hush/datasets/data/silence_noise/silence_006.wav"
+    },
+    {
+      "id": "silence_007",
+      "duration_sec": 2.5,
+      "ground_truth": "",
+      "path": "/Volumes/aditya/hush/datasets/data/silence_noise/silence_007.wav"
+    },
+    {
+      "id": "silence_008",
+      "duration_sec": 3.0,
+      "ground_truth": "",
+      "path": "/Volumes/aditya/hush/datasets/data/silence_noise/silence_008.wav"
+    },
+    {
+      "id": "silence_009",
+      "duration_sec": 2.0,
+      "ground_truth": "",
+      "path": "/Volumes/aditya/hush/datasets/data/silence_noise/silence_009.wav"
+    },
+    {
+      "id": "silence_010",
+      "duration_sec": 2.5,
+      "ground_truth": "",
+      "path": "/Volumes/aditya/hush/datasets/data/silence_noise/silence_010.wav"
+    },
+    {
+      "id": "silence_011",
+      "duration_sec": 3.0,
+      "ground_truth": "",
+      "path": "/Volumes/aditya/hush/datasets/data/silence_noise/silence_011.wav"
+    },
+    {
+      "id": "silence_012",
+      "duration_sec": 2.0,
+      "ground_truth": "",
+      "path": "/Volumes/aditya/hush/datasets/data/silence_noise/silence_012.wav"
+    },
+    {
+      "id": "silence_013",
+      "duration_sec": 2.5,
+      "ground_truth": "",
+      "path": "/Volumes/aditya/hush/datasets/data/silence_noise/silence_013.wav"
+    },
+    {
+      "id": "silence_014",
+      "duration_sec": 3.0,
+      "ground_truth": "",
+      "path": "/Volumes/aditya/hush/datasets/data/silence_noise/silence_014.wav"
+    }
+  ],
+  "hallucination_items": [
+    {
+      "id": "cv_tu_n03_r3_t0",
+      "duration_sec": 1.25,
+      "tail_silence_s": 0.0,
+      "reference_text": "tu tu tu",
+      "path": "/Volumes/aditya/hush/datasets/data/hallucination_probes/cv_tu_n03_r3_t0.wav"
+    },
+    {
+      "id": "cv_tu_n03_r3_t2",
+      "duration_sec": 3.25,
+      "tail_silence_s": 2.0,
+      "reference_text": "tu tu tu",
+      "path": "/Volumes/aditya/hush/datasets/data/hallucination_probes/cv_tu_n03_r3_t2.wav"
+    },
+    {
+      "id": "cv_tu_n03_r3_t8",
+      "duration_sec": 9.25,
+      "tail_silence_s": 8.0,
+      "reference_text": "tu tu tu",
+      "path": "/Volumes/aditya/hush/datasets/data/hallucination_probes/cv_tu_n03_r3_t8.wav"
+    },
+    {
+      "id": "cv_tu_n03_r5_t0",
+      "duration_sec": 0.85,
+      "tail_silence_s": 0.0,
+      "reference_text": "tu tu tu",
+      "path": "/Volumes/aditya/hush/datasets/data/hallucination_probes/cv_tu_n03_r5_t0.wav"
+    },
+    {
+      "id": "cv_tu_n03_r5_t2",
+      "duration_sec": 2.85,
+      "tail_silence_s": 2.0,
+      "reference_text": "tu tu tu",
+      "path": "/Volumes/aditya/hush/datasets/data/hallucination_probes/cv_tu_n03_r5_t2.wav"
+    },
+    {
+      "id": "cv_tu_n03_r5_t8",
+      "duration_sec": 8.85,
+      "tail_silence_s": 8.0,
+      "reference_text": "tu tu tu",
+      "path": "/Volumes/aditya/hush/datasets/data/hallucination_probes/cv_tu_n03_r5_t8.wav"
+    },
+    {
+      "id": "cv_tu_n03_r7_t0",
+      "duration_sec": 0.678,
+      "tail_silence_s": 0.0,
+      "reference_text": "tu tu tu",
+      "path": "/Volumes/aditya/hush/datasets/data/hallucination_probes/cv_tu_n03_r7_t0.wav"
+    },
+    {
+      "id": "cv_tu_n03_r7_t2",
+      "duration_sec": 2.678,
+      "tail_silence_s": 2.0,
+      "reference_text": "tu tu tu",
+      "path": "/Volumes/aditya/hush/datasets/data/hallucination_probes/cv_tu_n03_r7_t2.wav"
+    },
+    {
+      "id": "cv_tu_n03_r7_t8",
+      "duration_sec": 8.678,
+      "tail_silence_s": 8.0,
+      "reference_text": "tu tu tu",
+      "path": "/Volumes/aditya/hush/datasets/data/hallucination_probes/cv_tu_n03_r7_t8.wav"
+    },
+    {
+      "id": "cv_tu_n03_r9_t0",
+      "duration_sec": 0.583,
+      "tail_silence_s": 0.0,
+      "reference_text": "tu tu tu",
+      "path": "/Volumes/aditya/hush/datasets/data/hallucination_probes/cv_tu_n03_r9_t0.wav"
+    },
+    {
+      "id": "cv_tu_n03_r9_t2",
+      "duration_sec": 2.583,
+      "tail_silence_s": 2.0,
+      "reference_text": "tu tu tu",
+      "path": "/Volumes/aditya/hush/datasets/data/hallucination_probes/cv_tu_n03_r9_t2.wav"
+    },
+    {
+      "id": "cv_tu_n03_r9_t8",
+      "duration_sec": 8.583,
+      "tail_silence_s": 8.0,
+      "reference_text": "tu tu tu",
+      "path": "/Volumes/aditya/hush/datasets/data/hallucination_probes/cv_tu_n03_r9_t8.wav"
+    },
+    {
+      "id": "cv_tu_n04_r3_t0",
+      "duration_sec": 1.583,
+      "tail_silence_s": 0.0,
+      "reference_text": "tu tu tu tu",
+      "path": "/Volumes/aditya/hush/datasets/data/hallucination_probes/cv_tu_n04_r3_t0.wav"
+    },
+    {
+      "id": "cv_tu_n04_r3_t2",
+      "duration_sec": 3.583,
+      "tail_silence_s": 2.0,
+      "reference_text": "tu tu tu tu",
+      "path": "/Volumes/aditya/hush/datasets/data/hallucination_probes/cv_tu_n04_r3_t2.wav"
+    },
+    {
+      "id": "cv_tu_n04_r3_t8",
+      "duration_sec": 9.583,
+      "tail_silence_s": 8.0,
+      "reference_text": "tu tu tu tu",
+      "path": "/Volumes/aditya/hush/datasets/data/hallucination_probes/cv_tu_n04_r3_t8.wav"
+    },
+    {
+      "id": "cv_tu_n04_r5_t0",
+      "duration_sec": 1.05,
+      "tail_silence_s": 0.0,
+      "reference_text": "tu tu tu tu",
+      "path": "/Volumes/aditya/hush/datasets/data/hallucination_probes/cv_tu_n04_r5_t0.wav"
+    },
+    {
+      "id": "cv_tu_n04_r5_t2",
+      "duration_sec": 3.05,
+      "tail_silence_s": 2.0,
+      "reference_text": "tu tu tu tu",
+      "path": "/Volumes/aditya/hush/datasets/data/hallucination_probes/cv_tu_n04_r5_t2.wav"
+    },
+    {
+      "id": "cv_tu_n04_r5_t8",
+      "duration_sec": 9.05,
+      "tail_silence_s": 8.0,
+      "reference_text": "tu tu tu tu",
+      "path": "/Volumes/aditya/hush/datasets/data/hallucination_probes/cv_tu_n04_r5_t8.wav"
+    },
+    {
+      "id": "cv_tu_n04_r7_t0",
+      "duration_sec": 0.821,
+      "tail_silence_s": 0.0,
+      "reference_text": "tu tu tu tu",
+      "path": "/Volumes/aditya/hush/datasets/data/hallucination_probes/cv_tu_n04_r7_t0.wav"
+    },
+    {
+      "id": "cv_tu_n04_r7_t2",
+      "duration_sec": 2.821,
+      "tail_silence_s": 2.0,
+      "reference_text": "tu tu tu tu",
+      "path": "/Volumes/aditya/hush/datasets/data/hallucination_probes/cv_tu_n04_r7_t2.wav"
+    }
+  ]
+}
